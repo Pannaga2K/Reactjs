@@ -8,4 +8,16 @@
         * SYNTAX
             * const [<any_var_name>, <any_var_name_suitable_for_updating>] = useState(<initial_state>);
             * EX. const [game, setGame] = useState("NFS"); setGame(<another_game>);
+    - useEffect
+        * IT SERVES THE SAME PURPOSE AS 
+            * componentDidMount 
+            * componentDidUpdate 
+            * componentWillUnmount
+            BUT UNIFIED INTO A SINGLE API
+        * DEPENDENCIES 
+            * AN EMPTY ARRAY AS A SECOND ARGUMENT. THAT IS, VARIABLES ON WHICH useEffect DEPENDS ON TO RE-RUN
+            * WHEN THE ARRAY IS EMPTY THE EFFECT RUNS ONLY ONCE.
+        * SYNTAX 
+            * useEffect(() => ... , []);
+            * ANONYMOUS FUNCTION AND AN EMPTY ARRAY
     
