@@ -1,25 +1,49 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Switch, Link, Route} from "react-router-dom";
+import Info from "./E1/Info";
+import Num from "./E1/Num";
+import Prime from "./E1/Prime";
+import Todo from "./E1/Todo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/info">
+            <Info />
+            <Link to="/todo">TODO</Link>
+            <Link to="/num">NUM</Link><br/>
+            <Link to="/prime">PRIME</Link>
+          </Route>
+          <Route path="/num">
+            <Num />
+            <Link to="/info">INFO</Link><br/>
+            <Link to="/prime">PRIME</Link><br/>
+            <Link to="/todo">TODO</Link>
+          </Route>
+          <Route path="/prime">
+              <Prime />
+              <Link to="/info">INFO</Link><br/>
+              <Link to="/todo">TODO</Link><br/>
+              <Link to="/num">NUM</Link>
+          </Route>
+          <Route path="/todo">
+              <Todo />
+              <Link to="/prime">PRIME</Link><br/>
+              <Link to="/info">INFO</Link><br/>
+              <Link to="/num">NUM</Link>
+          </Route>
+          <Route path="/">
+            <Link to="/info">INFO</Link><br/>
+            <Link to="/num">NUM</Link><br/>
+            <Link to="/prime">PRIME</Link><br/>
+            <Link to="/todo">TODO</Link>
+          </Route>
+        </Switch>  
+      </div>
+    </Router>
   );
 }
 
