@@ -1,0 +1,20 @@
+[
+    {
+        "anime": "SLAM DUNK",
+        "characters": "SAKURAGI HANAMICHI, RUKAWA KAEDE",
+        "protagonist": "SAKURAGI HANAMICHI",
+        "episodes": "101"
+    },
+    {
+        "anime": "NARUTO",
+        "characters": "NARUTO, SASUKE",
+        "protagonist": "NARUTO",
+        "episodes": "720"
+    },
+    {
+        "anime": "BLACK CLOVER",
+        "characters": "ASTA, YUNO, YAMI SAKEHIRO",
+        "protagonist": "ASTA",
+        "episodes": "135?" 
+    }
+]
