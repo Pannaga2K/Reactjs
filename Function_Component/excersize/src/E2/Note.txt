@@ -2,5 +2,5 @@ REACT_CONTEXT_API:-
 
     - createContext   //CREATES A DATA LAYER
     - useContext      //USES CREATED DATA LAYER (VARIABLE I.E DEFINED FOR createContext)
-    - useReducer       //THE STATES WILL BE HELD
+    - useReducer      //THE STATES WILL BE HELD
     

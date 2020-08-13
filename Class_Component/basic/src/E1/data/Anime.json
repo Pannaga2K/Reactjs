@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Class_Component/basic/src/E1/data/Anime.json
 [
     {
         "anime": "SLAM DUNK",
@@ -14,30 +13,8 @@
     },
     {
         "anime": "BLACK CLOVER",
-        "characters": "ASTA, YUNO, YAMI SAKEHIRO",
+        "characters": "ASTA, YUNO, YAMI SUKEHIRO",
         "protagonist": "ASTA",
         "episodes": "135?" 
     }
 ]
-=======
-[
-    {
-        "anime": "SLAM DUNK",
-        "characters": "SAKURAGI HANAMICHI, RUKAWA KAEDE",
-        "protagonist": "SAKURAGI HANAMICHI",
-        "episodes": "101"
-    },
-    {
-        "anime": "NARUTO",
-        "characters": "NARUTO, SASUKE",
-        "protagonist": "NARUTO",
-        "episodes": "720"
-    },
-    {
-        "anime": "BLACK CLOVER",
-        "characters": "ASTA, YUNO, YAMI SAKEHIRO",
-        "protagonist": "ASTA",
-        "episodes": "135?" 
-    }
-]
->>>>>>> 58cd2d7ce8c35ebf29f18781b70cab4e423f9425:basic/src/E1/data/Anime.json

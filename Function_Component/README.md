@@ -23,9 +23,9 @@
         * AN EFFECT FUNCTION MUST NOT RETURN ANYTHING BESIDES A FUNCTION. 
         * THAT IS, PROMISE DOES'NT WORK INSIDE useEffect.
         * BUT, WE CAN CALL ANOTHER FUNCTION WHICH RETURNS PROMISE IN useEffect. 
-    -useReducer
+    - useReducer
         * SIMILAR TO useState, useReducer IS USED FOR MANAGING COMPLEX STATE CHANGES.
         * THIS HOOK USES A dispatch AS AN ENTITY.
         * SYNTAX 
             * const [<any_var_name>, dispatch] = useReducer(<reducer_function>, <initial_state>)
-            * EX const [data, dispatch] = useReducer(reducer, initialState) 
+            * EX const [data, dispatch] = useReducer(reducer, initialState)

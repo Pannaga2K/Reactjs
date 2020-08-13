@@ -20,13 +20,13 @@ function App() {
           <Route path="/num">
             <Num />
             <Link to="/info">INFO</Link><br/>
-            <Link to="/prime">PRIME</Link>
+            <Link to="/prime">PRIME</Link><br/>
             <Link to="/todo">TODO</Link>
           </Route>
           <Route path="/prime">
               <Prime />
               <Link to="/info">INFO</Link><br/>
-              <Link to="/todo">TODO</Link>
+              <Link to="/todo">TODO</Link><br/>
               <Link to="/num">NUM</Link>
           </Route>
           <Route path="/todo">

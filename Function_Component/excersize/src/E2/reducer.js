@@ -6,10 +6,8 @@ export const initialState = {
 const reducer = (state, action) => {
     console.log(action);
     switch(action.type){
-        case "SET_USERNAME":
-            return {...state, username: action.username};
-        case "SET_PASSWORD":
-            return {...state, password: action.password};
+        case "SET_USERNAME_AND_PASSWORD":
+            return {...state, username: action.username, password: action.password};
         default: return state;
     }
 }
