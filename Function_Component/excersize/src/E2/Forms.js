@@ -15,7 +15,7 @@ function Forms() {
       //   type: "SET_PASSWORD",
       // });
     }
-    var user = <h1>___.{username}.___</h1>;
+    // var user = <h1>___.{username}.___</h1>;
     return (
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -25,7 +25,7 @@ function Forms() {
           {errors.name && errors.name.type === "maxLength" && <span>MAX LENGTH EXCEEDED</span> }
           <input type="submit" />
         </form>
-        {user}
+        {username ? (<h1>___.{username}.___</h1>) : (<h1>LOGIN</h1>)}
       </div>
       );
 }
