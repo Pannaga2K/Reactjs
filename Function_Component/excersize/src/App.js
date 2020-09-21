@@ -4,8 +4,6 @@ import {BrowserRouter as Router, Switch, Link, Route} from "react-router-dom";
 import Info from "./E1/Info";
 import Num from "./E1/Num";
 import Prime from "./E1/Prime";
-// import Todo from "./E1/Todo";
-import API from "./E1/API";
 import RCAPI from "./E2/RCAPI1";
 
 function App() {
@@ -34,10 +32,6 @@ function App() {
               <Link to="/todo">TODO</Link><br/>
               <Link to="/num">NUM</Link>
           </Route>
-          <Route path="/api">
-              <API/>
-          </Route>
-          
           <Route path="/">
             <Link to="/api">API</Link><br/>
             <Link to="/info">INFO</Link><br/>
@@ -45,6 +39,7 @@ function App() {
             <Link to="/prime">PRIME</Link><br/>
             <Link to="/todo">TODO</Link>
             <Link to="/rcapi">RCAPI</Link>
+            <Link to="/rcapi2">RCAPI2</Link>
           </Route>
         </Switch>  
       </div>

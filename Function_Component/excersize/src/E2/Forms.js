@@ -11,11 +11,8 @@ function Forms() {
         username: data.username,
         password: data.password
       });
-      // dispatch({
-      //   type: "SET_PASSWORD",
-      // });
+      
     }
-    // var user = <h1>___.{username}.___</h1>;
     return (
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
